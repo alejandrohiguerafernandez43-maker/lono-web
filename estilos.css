@@ -100,7 +100,16 @@ a:hover { color: var(--blue-dark); }
   text-decoration: none;
 }
 .brand:hover { color: var(--ink); }
-.brand-mark { width: 2.2rem; height: 2.2rem; }
+/* El logo: el icono de la app (favicon.svg) sustituye al dibujo antiguo */
+.brand-mark { display: none; }
+.brand::before {
+  content: "";
+  flex-shrink: 0;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 24%;
+  background: url("favicon.svg") center / cover no-repeat;
+}
 
 .site-nav ul {
   display: flex;

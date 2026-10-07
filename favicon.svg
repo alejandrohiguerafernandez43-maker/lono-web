@@ -1,6 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-  <circle cx="20" cy="20" r="20" fill="#0B4FA8"/>
-  <circle cx="13.5" cy="20" r="4" fill="#FFFFFF"/>
-  <path d="M21 13a9 9 0 0 1 0 14" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
-  <path d="M26 9a15 15 0 0 1 0 22" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0B4FA8"/>
+  <!-- ondas que salen del auricular, detrás de la persona -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="16">
+    <circle cx="296" cy="264" r="192" stroke-opacity="0.30"/>
+    <circle cx="296" cy="264" r="238" stroke-opacity="0.15"/>
+  </g>
+  <!-- busto de perfil, mirando a la derecha -->
+  <path fill="#FFFFFF" d="M 70 512
+    C 96 486 150 470 196 462
+    L 198 392
+    C 152 362 124 310 124 252
+    C 124 160 186 98 266 96
+    C 336 94 382 140 384 198
+    C 385 216 384 228 386 238
+    C 394 258 410 282 414 294
+    C 416 304 404 312 390 312
+    C 394 320 394 328 386 332
+    C 394 338 394 348 384 352
+    C 380 356 380 360 384 366
+    C 388 382 378 398 356 400
+    C 340 402 324 400 316 408
+    L 322 462
+    C 380 470 430 486 452 512 Z"/>
+  <!-- oreja, libre -->
+  <path fill="#DCE8F7" d="M 246 236 C 224 236 214 256 216 280 C 218 304 232 322 250 322 C 264 322 270 310 264 300 C 260 292 268 284 270 270 C 272 252 264 236 246 236 Z"/>
+  <!-- banda: pasa por encima de la oreja y rodea la nuca -->
+  <path d="M 292 244 C 284 218 254 208 234 218 C 212 230 206 256 192 278 C 180 296 160 310 140 316" fill="none" stroke="#0B1F3A" stroke-width="18" stroke-linecap="round"/>
+  <!-- almohadilla de conducción ósea, delante de la oreja -->
+  <rect x="280" y="236" width="32" height="56" rx="14" fill="#0B1F3A"/>
+  <!-- ondas junto al auricular -->
+  <g fill="none" stroke="#0B4FA8" stroke-width="12" stroke-linecap="round">
+    <path d="M 321.5 238.5 A 36 36 0 0 1 321.5 289.5"/>
+    <path d="M 338.4 221.6 A 60 60 0 0 1 338.4 306.4"/>
+  </g>
 </svg>
